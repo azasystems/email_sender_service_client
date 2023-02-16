@@ -1,0 +1,17 @@
+{
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../email_sender_service_library"
+    }
+  ],
+  "require": {
+    "php": "8.2.2",
+    "azasystems/email_sender_service_library": ">=1.0.0"
+  },
+  "autoload": {
+    "files": [
+      "vendor/azasystems/email_sender_service_library/index.php"
+    ]
+  }
+}
